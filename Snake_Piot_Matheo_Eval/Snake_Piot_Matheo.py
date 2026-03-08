@@ -1,3 +1,15 @@
+"""
+-*- coding: utf-8 -*-
+
+Auteur : Piot Matheo, CPE Lyon, 3ETI-B
+
+Date : 2024-06-10
+
+Description : Implémentation du jeu Snake en utilisant Tkinter pour l'interface graphique. 
+Nous utilisons 3 classes : Snake (classe principale), Carré (représente les segments du serpent) 
+et Pomme (représente les pommes à manger).
+"""
+
 import tkinter as tk
 import random as rd
 import Pomme
